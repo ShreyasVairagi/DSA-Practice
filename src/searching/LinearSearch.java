@@ -14,9 +14,13 @@ public class LinearSearch {
     }
 
     public static void main(String[] args) {
+
         int[] numbers = {10, 5, 8, 20, 3};
+
         int target = 20;
+
         int result = linearSearch(numbers, target);
+
         System.out.println(result);
     }
 }
