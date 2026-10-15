@@ -3,24 +3,26 @@ package searching;
 public class BinarySearch {
 
     public static int binarySearch(int[] numbers, int target) {
+        if(numbers.length == 0){
+            return -1;
+        }
 
-        int left = 0;
+        int left= 0;
         int right = numbers.length - 1;
 
         while (left <= right){
-            int middle  = (left + right) / 2;
+            int middle = (right+left)/2;
 
-            if (numbers[middle] == target){
+            if(numbers[middle] == target){
                 return middle;
             }
-
             if (numbers[middle] < target) {
                 left = middle + 1;
             } else if (numbers[middle] > target) {
                 right = middle - 1;
             }
-        }
 
+        }
         return -1;
 
     }
@@ -36,3 +38,4 @@ public class BinarySearch {
         System.out.println(result);
     }
 }
+
