@@ -14,6 +14,15 @@ Solutions are organized by data structure and algorithmic pattern:
 DSA-Practice/
 │
 ├── src/
+│   ├── arrays/          # Array
+│   ├── hashing/         # Hashing implementations
+│   ├── linkedlist/      # Singly & Doubly Linked List implementations
+│   ├── problems/        # General algorithmic problems
+│   ├── queue/           # Queue implementations
+│   ├── searching/       # Searching algorithms
+│   ├── sorting/         # Sorting algorithms
+│   ├── stack/           # Stack implementations
+│   └── trees/           # Tree data structures and algorithms
 │
 ├── .gitignore
 └── README.md
