@@ -24,4 +24,11 @@ public class MinSubarrayLength {
 
         return (minLength == Integer.MAX_VALUE) ? 0 : minLength;
     }
+
+    public static void main(String[] args) {
+        int[] numbers = {2, 3, 1, 2, 4, 3};
+        int target = 7;
+
+        System.out.println("Min length: " + minSubarrayLength(numbers, target));
+    }
 }
