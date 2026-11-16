@@ -42,4 +42,12 @@ public class FindFirstAndLastPosition {
 
         return answer;
     }
+    public static void main(String[] args) {
+        int[] numbers = {5, 7, 7, 8, 8, 10};
+        int target = 8;
+
+        int[] result = searchRange(numbers, target);
+
+        System.out.println("[" + result[0] + ", " + result[1] + "]");
+    }
 }
